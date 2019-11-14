@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ShopDaki.Areas.Admin.Controllers
 {
-
     [Area("Admin")]
     public class GroupProductController : Controller
     {

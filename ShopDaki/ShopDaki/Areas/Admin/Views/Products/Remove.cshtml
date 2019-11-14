@@ -1,0 +1,99 @@
+﻿@model ShopDaki.Models.ViewModel.ProductsViewModel
+@{
+    ViewData["Title"] = "Remove";
+}
+
+<br />
+<form method="post">
+    <h2 class="text-info pb-2">Remove Product</h2>
+    <div class="p-4 border rounded row disabled">
+        <input type="hidden" asp-for="Product.ProductID" />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="col-8">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.Product.Name"></label>
+                </div>
+                <div class="col-8">
+                    <input type="text" class="form-control" readonly asp-for="Product.Name" />
+                </div>
+                <span asp-validation-for="Product.Name" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Product.Status"></label>
+                </div>
+                <div class="col-8">
+                    <input class="form-control" readonly asp-for="Product.Status" />
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Product.Images"></label>
+                </div>
+                <div class="col-8">
+                    <input class="form-control" readonly asp-for="Product.Images" />
+                </div>
+            </div>
+            <br />
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="GroupProducts"></label>
+                </div>
+                <div class="col-8">
+                    <input class="form-control" readonly asp-for="Product.GroupProduct.Name" />
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Product.Date"></label>
+                </div>
+                <div class="col-8">
+                    <input class="form-control" readonly asp-for="Product.Date" />
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Product.Price"></label>
+                </div>
+                <div class="col-8">
+                    <input class="form-control" readonly asp-for="Product.Price" />
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Product.Detail"></label>
+                </div>
+                <div class="col-8">
+                    <input class="form-control" readonly asp-for="Product.Detail" />
+                </div>
+            </div>
+            <br />
+        </div>
+
+        <div class="col-1"></div>
+
+        <div class="col-3">
+            <img src="@Model.Product.Images" alt="@nameof(@Model.Product.Images)" width="100%" style="border-radius: 5px; border: 1px Solid #bbb9b9;" />
+        </div>
+
+        <div class="form-group">
+            <input type="submit" class="btn btn-danger" asp-action="Remove" asp-route-id="@Model.Product.ProductID" value="Remove"/>
+            <a class="btn btn-success" asp-action="Index">Back to list</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
+
+

@@ -1,17 +1,25 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@using ShopDaki.Extensions
+@using ShopDaki.Utility
+
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ShopDaki</title>
+    <title>@ViewData["Title"] - GrainteHouseASP</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/f793bfb6f2.js"></script>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ShopDaki</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GrainteHouseASP</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,9 +30,43 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+                        @if (User.IsInRole(SD.SuperAdminEndUser))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="Admin" asp-controller="GroupProduct" asp-action="Index">Group Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="Admin" asp-controller="Products" asp-action="Index">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="Admin" asp-controller="AdminUsers" asp-action="Index">Admin Users</a>
+                            </li>
+                        }
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+
+                        @if (HttpContextAccessor.HttpContext.Session.Get<List<int>>("ssShoppingCart") != null)
+                        {
+                            <li style="color:white">
+                                <a class="nav-link" asp-area="Customers" asp-controller="ShoppingCart" asp-action="Index">
+                                    <i class="fas fa-shopping-cart"></i>&nbsp;
+                                    @{
+                                        var count = HttpContextAccessor.HttpContext.Session.Get<List<int>>("ssShoppingCart").Count;
+                                    }
+                                    (@count)
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li style="color:white">
+                                <a class="nav-link" asp-area="Customers" asp-controller="ShoppingCart" asp-action="Index">
+                                    <i class="fas fa-shopping-cart"></i>&nbsp;
+                                    (0)
+                                </a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
@@ -38,7 +80,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2019 - ShopDaki - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2019 - GrainteHouseASP - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

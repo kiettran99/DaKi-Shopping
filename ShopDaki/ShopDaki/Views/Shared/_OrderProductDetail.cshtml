@@ -1,0 +1,48 @@
+﻿@model List<GrainteHouseASP.Models.Product>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<div class="col-8" style="padding: 15px;">
+    <table class="table table-striped" width="100%">
+        <tr class="table-info">
+            <th style="text-align: center; width: 20%;"></th>
+            <th style="text-align: center;">
+                <label asp-for="@Model.FirstOrDefault().Name"></label>
+            </th>
+            <th style="text-align: center;">
+                <label asp-for="@Model.FirstOrDefault().Price"></label>
+            </th>
+            <th style="text-align: center;">
+                <label asp-for="@Model.FirstOrDefault().Detail"></label>
+            </th>
+            <th style="text-align: center;"></th>
+            <th style="text-align: center;"></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr style="padding: 50px;">
+                <td>
+                    <a asp-area="Customers" asp-controller="Home" asp-action="Details" asp-route-id="@item.ProductID">
+                        <img src="@item.Images" width="150px" height="150px" style="margin:auto; display:block; border-radius:5px; border:1px solid #bbb9b9;" />
+                    </a>
+                </td>
+                <td style="text-align: center;">
+                    @Html.DisplayFor(c => item.Name)
+                </td>
+                <td style="text-align: center;">
+                    @Html.DisplayFor(c => item.Price)
+                </td>
+                <td style="text-align: center;">
+                    @Html.DisplayFor(c => item.Detail)
+                </td>
+                <td style="text-align: center;">
+                    @Html.DisplayFor(c => item.GroupProduct.Name)
+                </td>
+                <td style="text-align: center;">
+                    
+                </td>
+            </tr>
+        }
+    </table>
+</div>

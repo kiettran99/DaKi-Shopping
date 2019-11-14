@@ -31,12 +31,16 @@ namespace ShopDaki
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultUI().AddDefaultTokenProviders();
             services.AddControllersWithViews();
-            services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddRazorPages();
             services.AddMvc(option => option.EnableEndpointRouting = false);
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,7 +64,9 @@ namespace ShopDaki
 
             app.UseAuthentication();
             app.UseAuthorization();
-          
+
+            app.UseSession();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

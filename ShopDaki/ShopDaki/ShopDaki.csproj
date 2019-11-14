@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Customer\**" />
+    <Content Remove="Areas\Customer\**" />
+    <EmbeddedResource Remove="Areas\Customer\**" />
+    <None Remove="Areas\Customer\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Data\Migrations\20191114104503_ShopDaki.Data.ApplicationDbContext.cs" />
     <Compile Remove="Data\Migrations\20191114104503_ShopDaki.Data.ApplicationDbContext.Designer.cs" />
   </ItemGroup>
@@ -30,19 +37,12 @@
 
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
-    <Folder Include="Areas\Admin\Views\" />
 
     <Folder Include="Areas\Customers\Data\" />
     <Folder Include="Areas\Customers\Models\" />
     <Folder Include="Controllers\" />
-
-    <Folder Include="Areas\Customer\Controllers\" />
-    <Folder Include="Areas\Customer\Data\" />
-    <Folder Include="Areas\Customer\Models\" />
-    <Folder Include="Areas\Customer\Views\" />
 
   </ItemGroup>
 

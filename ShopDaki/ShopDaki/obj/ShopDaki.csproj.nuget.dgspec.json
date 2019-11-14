@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\New folder\\DoAn1\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj": {}
+    "D:\\GitHub\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\New folder\\DoAn1\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj": {
+    "D:\\GitHub\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\New folder\\DoAn1\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj",
+        "projectUniqueName": "D:\\GitHub\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj",
         "projectName": "ShopDaki",
-        "projectPath": "C:\\Users\\User\\Desktop\\New folder\\DoAn1\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\New folder\\DoAn1\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\obj\\",
+        "projectPath": "D:\\GitHub\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj",
+        "packagesPath": "C:\\Users\\Micro-Star\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Micro-Star\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

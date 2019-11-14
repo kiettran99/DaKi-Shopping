@@ -24,6 +24,6 @@ namespace ShopDaki.Models
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Company> Companies { get; set; }
         public DbSet<Contact> Contacts { get; set; }
-
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     }
 }

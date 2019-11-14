@@ -1,8 +1,33 @@
-﻿@{
+﻿@model List<Product>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<br /> <br />
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-4">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">
+                        <label style="font-size:32px; color: steelblue">@product.Name</label>
+                    </h4>
+                </div>
+
+                <img class="card-img-top" style="height:200px;width:200px;" src="@product.Images" />
+
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-item-center" >
+                        <div class="btn-group">
+                            <label style="font-size:20px; color:#a51313;"><b>$@product.Price</b><label />
+                        </div>
+                        <a class="btn pull-right btn-outline-primary" asp-action="Details" asp-controller="Home" asp-route-id="@product.ProductID">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
 </div>
+

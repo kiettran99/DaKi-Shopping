@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ShopDaki.Models.Product>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<br />
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-info">Product List</h2>
+        </div>
+        <div class="col-6 text-right">
+            <a class="btn btn-info" asp-action="Create"><i class="fas fa-plus"></i>&nbsp;New Product</a>
+        </div>
+    </div>
+</div>
+
+<br />
+<table class="table table-striped border">
+    <tr class="table-info">
+        <th>@Html.DisplayNameFor(model => model.Name)</th>
+        <th>@Html.DisplayNameFor(model => model.Status)</th>
+        <th>@Html.DisplayNameFor(model => model.GroupProduct)</th>
+        <th>@Html.DisplayNameFor(model => model.Date)</th>
+        <th>@Html.DisplayNameFor(model => model.Price)</th>
+        <th>@Html.DisplayNameFor(model => model.Detail)</th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(model => item.Name)</td>
+            <td>@Html.DisplayFor(model => item.Status)</td>
+            <td>@Html.DisplayFor(model => item.GroupProduct.Name)</td>
+            <td>@Html.DisplayFor(model => item.Date)</td>
+            <td>@Html.DisplayFor(model => item.Price)</td>
+            <td>@Html.DisplayFor(model => item.Detail)</td>
+            <partial name="_TableViewPartial" model="item.ProductID" />
+        </tr>
+    }
+
+</table>
