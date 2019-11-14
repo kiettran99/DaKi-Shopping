@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj": {}
+    "C:\\Users\\User\\Desktop\\New folder\\DoAn1\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj": {
+    "C:\\Users\\User\\Desktop\\New folder\\DoAn1\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\New folder\\DoAn1\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj",
         "projectName": "ShopDaki",
-        "projectPath": "D:\\GitHub\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj",
-        "packagesPath": "C:\\Users\\Micro-Star\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\New folder\\DoAn1\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\ShopDaki.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\New folder\\DoAn1\\DaKi-ShoppingWebsite\\ShopDaki\\ShopDaki\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Micro-Star\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,9 +53,27 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",

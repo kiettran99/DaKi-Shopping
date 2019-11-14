@@ -1,137 +1,137 @@
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\appsettings.Development.json
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\appsettings.json
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.StaticWebAssets.xml
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.exe
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.deps.json
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.runtimeconfig.json
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.runtimeconfig.dev.json
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.pdb
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.Views.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.Views.pdb
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.csprojAssemblyReference.cache
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\staticwebassets\ShopDaki.StaticWebAssets.Manifest.cache
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\staticwebassets\ShopDaki.StaticWebAssets.xml
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.RazorAssemblyInfo.cache
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.RazorAssemblyInfo.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.AssemblyInfoInputs.cache
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.AssemblyInfo.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.TagHelpers.input.cache
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.TagHelpers.output.cache
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.RazorCoreGenerate.cache
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.RazorTargetAssemblyInfo.cache
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.RazorTargetAssemblyInfo.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.Views.pdb
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.csproj.CopyComplete
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.pdb
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.MvcApplicationPartsAssemblyInfo.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.MvcApplicationPartsAssemblyInfo.cache
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Areas\Customers\Views\Home\Index.cshtml.g.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Areas\Customers\Views\Home\Privacy.cshtml.g.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Areas\Customers\Views\_ViewImports.cshtml.g.cs
-D:\GitHub\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Areas\Customers\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.csprojAssemblyReference.cache
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\staticwebassets\ShopDaki.StaticWebAssets.Manifest.cache
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\staticwebassets\ShopDaki.StaticWebAssets.xml
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.AssemblyInfo.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.StaticWebAssets.xml
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.exe
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.TagHelpers.input.cache
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.TagHelpers.output.cache
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.RazorCoreGenerate.cache
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.RazorTargetAssemblyInfo.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.csproj.CopyComplete
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.deps.json
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.runtimeconfig.json
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.runtimeconfig.dev.json
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.pdb
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.Views.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ShopDaki.Views.pdb
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.Views.pdb
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.pdb
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\New folder\DoAn1\DaKi-ShoppingWebsite\ShopDaki\ShopDaki\obj\Debug\netcoreapp3.0\ShopDaki.MvcApplicationPartsAssemblyInfo.cache
