@@ -12,6 +12,7 @@ using ShopDaki.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ShopDaki.Models;
 
 namespace ShopDaki
 {
@@ -33,6 +34,7 @@ namespace ShopDaki
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
+            services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddRazorPages();
             services.AddMvc(option => option.EnableEndpointRouting = false);
         }
@@ -58,6 +60,7 @@ namespace ShopDaki
 
             app.UseAuthentication();
             app.UseAuthorization();
+          
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
