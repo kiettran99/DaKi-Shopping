@@ -36,6 +36,7 @@ namespace ShopDaki
             services.AddControllersWithViews();
             services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddRazorPages();
+            services.AddMvc(option => option.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,7 +60,7 @@ namespace ShopDaki
 
             app.UseAuthentication();
             app.UseAuthorization();
-
+          
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

@@ -9,6 +9,7 @@ using ShopDaki.Models;
 
 namespace ShopDaki.Controllers
 {
+    [Area("Customers")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
