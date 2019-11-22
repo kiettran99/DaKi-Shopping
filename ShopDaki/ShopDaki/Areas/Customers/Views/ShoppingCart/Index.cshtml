@@ -1,0 +1,95 @@
+﻿@model ShopDaki.Models.ViewModel.ShoppingCartViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form method="post">
+    <br /> <br />
+    <h2 class="text-info">Your Shopping Cart</h2>
+    <br />
+    @if (Model.Products.Count > 0)
+    {
+        <div class="container border border-primary rounded" style="padding: 15px;">
+            <div class="row">
+                <div class="col-8" style="border-right: 1px solid #bbb9b9">
+                    <table class="table table-striped" width="100%">
+                        <tr class="table-info">
+                            <th style="text-align: center; width: 20%;"></th>
+                            <th style="text-align: center;">
+                                <label asp-for="@Model.Products.FirstOrDefault().Name"></label>
+                            </th>
+                            <th style="text-align: center;">
+                                <label asp-for="@Model.Products.FirstOrDefault().Price"></label>
+                            </th>
+                            <th style="text-align: center;">
+                                <label asp-for="@Model.Products.FirstOrDefault().Detail"></label>
+                            </th>
+                            <th style="text-align: center;"></th>
+                            <th style="text-align: center;"></th>
+                        </tr>
+                        @foreach (var item in Model.Products)
+                        {
+                            <tr style="padding: 50px;">
+                                <td>
+                                    <a asp-area="Customers" asp-controller="Home" asp-action="Details" asp-route-id="@item.ProductID">
+                                        <img src="@item.Images" width="150px" height="150px" style="margin:auto; display:block; border-radius:5px; border:1px solid #bbb9b9;" />
+                                    </a>
+                                </td>
+                                <td style="text-align: center;">
+                                    @Html.DisplayFor(c => item.Name)
+                                </td>
+                                <td style="text-align: center;">
+                                    @Html.DisplayFor(c => item.Price)
+                                </td>
+                                <td style="text-align: center;">
+                                    @Html.DisplayFor(c => item.Detail)
+                                </td>
+                                <td style="text-align: center;">
+                                    @Html.DisplayFor(c => item.GroupProduct.Name)
+                                </td>
+                                <td style="text-align: center;">
+                                    <button type="submit" class="btn btn-danger" asp-action="Remove" asp-route-id="@item.ProductID">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+                <div class="col-4" style="padding-left: 30px;">
+                    <div class="row">
+                        <div class="col-12">
+                            <label>Name: </label>
+                        </div>
+                        <div class="col-12 pb-lg-2">
+                            <input class="form-control" asp-for="@Model.Order.CustomerName" />
+                        </div>
+                        <div class="col-12">
+                            <label>Phone Number: </label>
+                        </div>
+                        <div class="col-12 pb-lg-2">
+                            <input class="form-control" asp-for="@Model.Order.CustomerPhoneNumber" />
+                        </div>
+                        <div class="col-12">
+                            <label>Emial: </label>
+                        </div>
+                        <div class="col-12 pb-lg-3">
+                            <input class="form-control" asp-for="@Model.Order.CustomerEmail" />
+                        </div>
+
+                        <div class="col-12 pb-lg-2">
+                            <button class="btn btn-success form-control" type="submit" id="btnPlaceOrder">Order</button> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div>
+            No items added to the shopping cart...
+        </div>
+    }
+</form>
+

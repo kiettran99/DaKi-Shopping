@@ -1,0 +1,40 @@
+﻿@model ShopDaki.Models.GroupProduct
+@{
+    ViewData["Title"] = "Details";
+}
+
+<br />
+<h2 class="text-info pb-2">Detail Group Product</h2>
+<div class="p-4 border rounded">
+    <div class="form-group row">
+        <div class="col-2">
+            <label asp-for="Name"></label>
+        </div>
+        <div class="col-5">
+            <input disabled type="text" class="form-control" asp-for="Name" />
+        </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <div class="col-2">
+            <label asp-for="Image"></label>
+        </div>
+        <div class="col-5">
+            <input disabled class="form-control" asp-for="Image" />
+        </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <div class="col-2">
+            <label asp-for="Status"></label>
+        </div>
+        <div class="col-5">
+            <input disabled class="form-control" asp-for="Status" />
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        <a asp-action="Edit" asp-route-id="@Model.GroupProductID" class="btn btn-primary">Update</a>
+        <a class="btn btn-success" asp-action="Index">Back to list</a>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+﻿@model ShopDaki.Models.ViewModel.ShoppingCartViewModel
+@{
+    ViewData["Title"] = "OrderConfirmation";
+}
+
+<br />
+<h2 class="text-info">Order Confirmation</h2>
+<div class="form-text">
+    Your order is confimation. A sales Rep would be reply shortly. Please feel free to contact us anytime you need any question.
+</div>
+<br />
+
+<partial name="~/Views/Shared/_OrderCustomerDetails.cshtml" model="Model.Order" />
+<br />
+
+<partial name="~/Views/Shared/_OrderProductDetail.cshtml" model="Model.Products" />
+
+<a class="btn btn-success" asp-area="Customers" asp-controller="Home" asp-action="Index">Back to Products</a>

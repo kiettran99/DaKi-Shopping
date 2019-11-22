@@ -1,0 +1,51 @@
+﻿@model ShopDaki.Models.ApplicationUser
+@{
+    ViewData["Title"] = "Remove";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2 class="text-info pb-2">Edit Group Product</h2>
+
+<form method="post" asp-action="Edit">
+    <div class="p-4 border rounded">
+        <input type="hidden" asp-for="Id" />
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="Name"></label>
+            </div>
+            <div class="col-5">
+                <input type="text" readonly class="form-control" asp-for="Name" />
+            </div>
+        </div>
+        <br />
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="Email"></label>
+            </div>
+            <div class="col-5">
+                <input class="form-control" readonly asp-for="Email" />
+            </div>
+        </div>
+        <br />
+        <div class="form-group row">
+            <div class="col-2">
+                <label asp-for="PhoneNumber"></label>
+            </div>
+            <div class="col-5">
+                <input class="form-control" readonly asp-for="PhoneNumber" />
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <input asp-route-id="@Model.Id" class="btn btn-danger" type="submit" value="Remove" />
+            <a class="btn btn-success" asp-action="Index">Back to list</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
+
+
