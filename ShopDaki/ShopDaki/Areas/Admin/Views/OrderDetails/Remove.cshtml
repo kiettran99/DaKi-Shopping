@@ -1,0 +1,95 @@
+﻿@model ShopDaki.Models.ViewModel.OrderInfomationViewModel
+@using ShopDaki.Extensions;
+@using ShopDaki.Utility;
+
+@{
+    ViewData["Title"] = "Remove";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2 class="text-info pb-2">Remove Order</h2>
+
+<form method="post">
+    <div class="p-4 border rounded row">
+        <input type="hidden" asp-for="Order.OrderID" />
+
+        <div class="col-6">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Order.CustomerName"></label>
+                </div>
+                <div class="col-8">
+                    <input type="text" class="form-control" readonly asp-for="Order.CustomerName" />
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Order.CustomerEmail"></label>
+                </div>
+                <div class="col-8">
+                    <input class="form-control" readonly asp-for="Order.CustomerEmail" />
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Order.CustomerPhoneNumber"></label>
+                </div>
+                <div class="col-8">
+                    <input class="form-control" readonly asp-for="Order.CustomerPhoneNumber" />
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Order.SalesPerson"></label>
+                </div>
+                <div class="col-8">
+                    @if (User.IsInRole(SD.AdminEndUser))
+                    {
+                        <input class="form-control" readonly asp-for="Order.SalesPerson.Name" />
+                        <input class="form-control" hidden asp-for="Order.SalesPersonId" />
+                    }
+                    else
+                    {
+                        <select asp-for="@Model.Order.SalesPersonId" readonly asp-items="Model.SalesPerson.ToSelectListItem(Model.Order.SalesPersonId)" class="form-control"></select>
+                    }
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Order.Date"></label>
+                </div>
+                <div class="col-8">
+                    <input class="form-control" readonly asp-for="Order.Date" />
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Order.Status"></label>
+                </div>
+                <div class="col-8">
+                    <input class="form-control" readonly asp-for="Order.Status" />
+                </div>
+            </div>
+            <br />
+        </div>
+
+        <div class="col-6">
+            <partial name="_OrderProductDetail" model="Model.Products" />
+        </div>
+
+        <div class="form-group">
+            <input asp-action="Remove" asp-route-id="@Model.Order.OrderID" class="btn btn-danger" type="submit" value="Remove" />
+            <a class="btn btn-success" asp-action="Index">Back to list</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

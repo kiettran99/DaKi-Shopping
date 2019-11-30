@@ -14,6 +14,6 @@ namespace ShopDaki.Models
         public string Name { get; set; }
         
         [NotMapped]
-        public bool isSuperAdmin { get; set; }
+        public string Role { get; set; }
     }
 }
