@@ -10,7 +10,9 @@ namespace ShopDaki.Utility
         public const string DefaultProductIamge = "default_product.jpg";
         public const string ImageFolder = @"image\ProductImage";
 
-        public const string AdminEndUser = "Admin";
         public const string SuperAdminEndUser = "Super Admin";
+        public const string AdminEndUser = "Admin";
+        public const string Salesman = "Salesman";
+        public const string Customer = "Customer";
     }
 }

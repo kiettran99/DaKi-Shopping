@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="~/css/styles.css" />
     <link rel="stylesheet" href="~/css/Team-Boxed.css" />
     <link rel="stylesheet" href="~/css/Team-Clean.css" />
+    <link rel="stylesheet" href="~/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/fonts/ionicons.min.css" />
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/f793bfb6f2.js"></script>
 </head>
@@ -34,23 +36,29 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Products
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            </div>
+                        </li>
+
                         @if (User.IsInRole(SD.SuperAdminEndUser))
                         {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="Admin" asp-controller="GroupProduct" asp-action="Index">Group Product</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="Admin" asp-controller="Products" asp-action="Index">Products</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="Admin" asp-controller="AdminUsers" asp-action="Index">Admin Users</a>
-                            </li>
-                        }
-
-                        @if (User.IsInRole(SD.AdminEndUser) || User.IsInRole(SD.SuperAdminEndUser))
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="Admin" asp-controller="OrderDetails" asp-action="Index">Order Details</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Managements
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="GroupProduct" asp-action="Index">Group Product</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="OrderDetails" asp-action="Index">Order Details</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Products" asp-action="Index">Products</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="AdminUsers" asp-action="Index">Admin Users</a>
+                                </div>
                             </li>
                         }
 
@@ -112,12 +120,16 @@
                         </ul>
                     </div>
                     <div class="col-md-6 item text">
-                        <h3>Company Name</h3>
+                        <h3>DAKI</h3>
                         <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
                     </div>
-                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                    <div class="col item social">
+                    <a href="#"><i class="icon ion-social-facebook"></i></a>
+                    <a href="#"><i class="icon ion-social-twitter"></i></a>
+                    <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                    <a href="#"><i class="icon ion-social-instagram"></i></a></div>
                 </div>
-                <p class="copyright">Company Name © 2017</p>
+                <p class="copyright">DAKI © 2019</p>
             </div>
         </footer>
     </div>

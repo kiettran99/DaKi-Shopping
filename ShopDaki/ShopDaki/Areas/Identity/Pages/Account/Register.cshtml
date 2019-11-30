@@ -37,9 +37,14 @@
                 <input asp-for="Input.ConfirmPassword" class="form-control" />
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <input asp-for="Input.IsSuperAdmin" type="checkbox" class="form-check-input" />
-                <label asp-for="Input.IsSuperAdmin" class="form-check-label"></label>
+            <div class="form-group">
+                <select class="custom-select" required>
+                    <option value="" class="selected">Choose a role</option>
+                    <option value="Super Admin">Super Admin</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Salesman">Salesman</option>
+                    <option value="Customer">Customer</option>
+                </select>
             </div>
             <button type="submit" class="btn btn-primary">Register</button>
         </form>
