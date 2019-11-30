@@ -19,7 +19,7 @@ namespace ShopDaki.Areas.Admin.Controllers
     public class OrderDetailsController : Controller
     {
         private readonly ApplicationDbContext _db;
-        //private int PageSize = 3;
+        private int PageSize = 5;
 
         public OrderDetailsController(ApplicationDbContext db)
         {
@@ -37,32 +37,32 @@ namespace ShopDaki.Areas.Admin.Controllers
                 Orders = new List<Models.Order>()
             };
 
-            //StringBuilder param = new StringBuilder();
-            //param.Append("/Admin/Orders?productPage=:");
+            StringBuilder param = new StringBuilder();
+            param.Append("/Admin/OrderDetails?productPage=:");
 
-            //param.Append("&searchName");
-            //if (searchName != null)
-            //{
-            //    param.Append(searchName);
-            //}
+            param.Append("&searchName=");
+            if (searchName != null)
+            {
+                param.Append(searchName);
+            }
 
-            //param.Append("&searchEmail");
-            //if (searchEmail != null)
-            //{
-            //    param.Append(searchEmail);
-            //}
+            param.Append("&searchEmail=");
+            if (searchEmail != null)
+            {
+                param.Append(searchEmail);
+            }
 
-            //param.Append("&searchPhone");
-            //if (searchPhone != null)
-            //{
-            //    param.Append(searchPhone);
-            //}
+            param.Append("&searchPhone=");
+            if (searchPhone != null)
+            {
+                param.Append(searchPhone);
+            }
 
-            //param.Append("&searchDate");
-            //if (searchDate != null)
-            //{
-            //    param.Append(searchDate);
-            //}
+            param.Append("&searchDate=");
+            if (searchDate != null)
+            {
+                param.Append(searchDate);
+            }
 
             orderDetailsVM.Orders = _db.Orders.Include(m => m.SalesPerson).ToList();
 
@@ -98,18 +98,18 @@ namespace ShopDaki.Areas.Admin.Controllers
 
             }
 
-            //var count = orderDetailsVM.Orders.Count;
+            var count = orderDetailsVM.Orders.Count;
 
-            //orderDetailsVM.Orders = orderDetailsVM.Orders.OrderBy(p => p.Date)
-            //    .Skip((productPage - 1) * PageSize).Take(PageSize).ToList();
+            orderDetailsVM.Orders = orderDetailsVM.Orders.OrderBy(p => p.Date)
+                .Skip((productPage - 1) * PageSize).Take(PageSize).ToList();
 
-            //orderDetailsVM.PagingInfo = new PagingInfo()
-            //{
-            //    CurrentPage = productPage,
-            //    ItemsPerPage = PageSize,
-            //    TotalItems = count,
-            //    urlParam = param.ToString()
-            //};
+            orderDetailsVM.PagingInfo = new PagingInfo()
+            {
+                CurrentPage = productPage,
+                ItemsPerPage = PageSize,
+                TotalItems = count,
+                urlParam = param.ToString()
+            };
 
             return View(orderDetailsVM);
         }
