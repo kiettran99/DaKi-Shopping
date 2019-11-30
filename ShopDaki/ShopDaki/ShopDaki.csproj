@@ -43,6 +43,8 @@
     <Folder Include="Areas\Customers\Data\" />
     <Folder Include="Areas\Customers\Models\" />
     <Folder Include="Controllers\" />
+    <Folder Include="wwwroot\Images\Productsimage\" />
+    <Folder Include="wwwroot\NewFolder\" />
 
   </ItemGroup>
 
