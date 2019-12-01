@@ -35,6 +35,8 @@ namespace ShopDaki
                 .AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultUI().AddDefaultTokenProviders();
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddScoped<IDbInitializer, DbInitializer>();
+
             services.AddMvc(option => option.EnableEndpointRouting = false);
             services.AddSession(options =>
             {
@@ -44,7 +46,7 @@ namespace ShopDaki
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IDbInitializer dbInitializer)
         {
             if (env.IsDevelopment())
             {
@@ -59,7 +61,7 @@ namespace ShopDaki
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            dbInitializer.initialize();
             app.UseRouting();
 
             app.UseAuthentication();
