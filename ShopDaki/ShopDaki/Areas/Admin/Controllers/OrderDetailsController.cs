@@ -91,7 +91,7 @@ namespace ShopDaki.Areas.Admin.Controllers
                     DateTime appDate = Convert.ToDateTime(searchDate);
                     orderDetailsVM.Orders = orderDetailsVM.Orders.Where(a => a.Date.ToShortDateString().Equals(appDate.ToShortDateString())).ToList();
                 }
-                catch (Exception ex)
+                catch
                 {
 
                 }

@@ -18,18 +18,19 @@ namespace ShopDaki.Areas.Customers.Controllers
 
         public ProductsListViewModel ProductsListVM { get; set; }
 
-        private int PageSize = 1;
+        private int PageSize = 9;
 
         public ProductsListController(ApplicationDbContext db)
         {
             _db = db;
             ProductsListVM = new ProductsListViewModel()
             {
-                Products = new List<Product>()
+                Products = new List<Product>(),
+                GroupProducts = _db.GroupProducts.ToList(),
             }; 
         }
 
-        public async Task<IActionResult> Index(int productPage = 1, string searchName = null)
+        public async Task<IActionResult> Index(int productPage = 1, string searchName = null, string groupProductsSelected = "Default")
         {
             ProductsListVM.Products = await _db.Products.Include(m => m.GroupProduct).ToListAsync();
 
@@ -52,6 +53,12 @@ namespace ShopDaki.Areas.Customers.Controllers
             ProductsListVM.Products = ProductsListVM.Products.OrderBy(p => p.Date)
                 .Skip((productPage - 1) * PageSize).Take(PageSize).ToList();
 
+            if (!groupProductsSelected.Equals("Default"))
+            {              
+                ProductsListVM.Products = ProductsListVM.Products.OrderBy(p => p.Date)
+                .Skip((productPage - 1) * PageSize).Take(PageSize).Where(m => m.GroupProduct.Name.Equals(groupProductsSelected)).ToList();
+            }
+       
             ProductsListVM.PagingInfo = new PagingInfo()
             {
                 CurrentPage = productPage,
@@ -61,13 +68,6 @@ namespace ShopDaki.Areas.Customers.Controllers
             };
 
             return View(ProductsListVM);
-        }
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Index()
-        {
-            return View();
         }
     }
 }
