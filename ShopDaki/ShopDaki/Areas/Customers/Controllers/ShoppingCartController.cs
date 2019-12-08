@@ -8,6 +8,8 @@ using ShopDaki.Models.ViewModel;
 using ShopDaki.Extensions;
 using ShopDaki.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
+using ShopDaki.Utility;
 
 namespace GrainteHouseASP.Areas.Customers.Controllers
 {
@@ -25,13 +27,24 @@ namespace GrainteHouseASP.Areas.Customers.Controllers
 
             ShoppingCartVM = new ShoppingCartViewModel()
             {
-                Products = new List<Product>()
+                Products = new List<Product>(),
+                Customer = new ApplicationUser()
             };
         }
 
         //Get Index Shopping cart
         public async Task<IActionResult> Index()
         {
+            //Get ID Curent User
+            ClaimsPrincipal currenUser = this.User;
+            var claimsIdentity = (ClaimsIdentity)this.User.Identity;
+            var claims = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+
+            if (User.IsInRole(SD.Customer))
+            {
+                ShoppingCartVM.Customer = _db.ApplicationUsers.Where(m => m.Id == claims.Value).FirstOrDefault();
+            }
+
             List<int> lstShoppingCart = HttpContext.Session.Get<List<int>>("ssShoppingCart");
 
             if (lstShoppingCart != null)
@@ -52,6 +65,16 @@ namespace GrainteHouseASP.Areas.Customers.Controllers
         public IActionResult IndexPost()
         {
             List<int> lstShoppingCast = HttpContext.Session.Get<List<int>>("ssShoppingCart");
+
+            //Get ID Curent User
+            ClaimsPrincipal currenUser = this.User;
+            var claimsIdentity = (ClaimsIdentity)this.User.Identity;
+            var claims = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+
+            if (User.IsInRole(SD.Customer))
+            {
+                ShoppingCartVM.Order.SalesPersonId = claims.Value;
+            }
 
             ShoppingCartVM.Order.Date = DateTime.Now;
 

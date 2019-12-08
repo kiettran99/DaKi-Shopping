@@ -1,6 +1,6 @@
 ﻿@model ShopDaki.Models.ViewModel.ShoppingCartViewModel
-@{
-    ViewData["Title"] = "Index";
+@{@using ShopDaki.Utility
+ViewData["Title"] = "Index";
 }
 
 <form method="post">
@@ -58,27 +58,55 @@
                 </div>
                 <div class="col-4" style="padding-left: 30px;">
                     <div class="row">
-                        <div class="col-12">
-                            <label>Name: </label>
-                        </div>
-                        <div class="col-12 pb-lg-2">
-                            <input class="form-control" asp-for="@Model.Order.CustomerName" />
-                        </div>
-                        <div class="col-12">
-                            <label>Phone Number: </label>
-                        </div>
-                        <div class="col-12 pb-lg-2">
-                            <input class="form-control" asp-for="@Model.Order.CustomerPhoneNumber" />
-                        </div>
-                        <div class="col-12">
-                            <label>Emial: </label>
-                        </div>
-                        <div class="col-12 pb-lg-3">
-                            <input class="form-control" asp-for="@Model.Order.CustomerEmail" />
-                        </div>
+                        @if (User.IsInRole(SD.Customer))
+                        {
+                            <div class="col-12">
+                                <label>Name: </label>
+                            </div>
+                            <div class="col-12 pb-lg-2">
+                                <input class="form-control" readonly asp-for="@Model.Order.CustomerName" value="@Model.Customer.Name" />
+                            </div>
+                            <div class="col-12">
+                                <label>Phone Number: </label>
+                            </div>
+                            <div class="col-12 pb-lg-2">
+                                <input class="form-control" readonly asp-for="@Model.Order.CustomerPhoneNumber" value="@Model.Customer.PhoneNumber" />
+                            </div>
+                            <div class="col-12">
+                                <label>Email: </label>
+                            </div>
+                            <div class="col-12 pb-lg-3">
+                                <input class="form-control" readonly asp-for="@Model.Order.CustomerEmail" value="@Model.Customer.Email" />
+                            </div>
+                            <div class="col-12 pb-lg-3">
+                                <label>If your information is not right then you can go your profile to <a asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">edit.</a></label>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="col-12">
+                                <label>Name: </label>
+                            </div>
+                            <div class="col-12 pb-lg-2">
+                                <input class="form-control" asp-for="@Model.Order.CustomerName" />
+                            </div>
+                            <div class="col-12">
+                                <label>Phone Number: </label>
+                            </div>
+                            <div class="col-12 pb-lg-2">
+                                <input class="form-control" asp-for="@Model.Order.CustomerPhoneNumber" />
+                            </div>
+                            <div class="col-12">
+                                <label>Email: </label>
+                            </div>
+                            <div class="col-12 pb-lg-3">
+                                <input class="form-control" asp-for="@Model.Order.CustomerEmail" />
+                            </div>
+                        }
+
 
                         <div class="col-12 pb-lg-2">
-                            <button class="btn btn-success form-control" type="submit" id="btnPlaceOrder">Order</button> 
+                            <button class="btn btn-success form-control" type="submit" id="btnPlaceOrder">Order</button>
                         </div>
                     </div>
                 </div>

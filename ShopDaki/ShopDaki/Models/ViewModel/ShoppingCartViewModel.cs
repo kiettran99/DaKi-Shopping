@@ -9,5 +9,6 @@ namespace ShopDaki.Models.ViewModel
     {
         public List<Product> Products { get; set; }
         public Order Order { get; set; }
+        public ApplicationUser Customer { get; set; }
     }
 }
