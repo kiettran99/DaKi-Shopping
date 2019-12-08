@@ -86,7 +86,7 @@
                     <label>Quantity: </label>
                 </div>
                 <div class="col-8">
-                    <input class="form-control" type="number" min="0" max="10" step="2" value="6">
+                    <input class="form-control" id="input-quantity" name="Quantity" type="number" min="0" max="10" step="1" value="1">
                 </div>
             </div>
             <br />
@@ -107,7 +107,21 @@
 
                     @if (isInBag)
                     {
-                        <input class="btn btn-danger form-control" type="submit" value="Remove to Bag" asp-action="Remove" asp-route-id="@Model.ProductID" />
+                        int quantity = HttpContextAccessor.HttpContext.Session.Get<int>(Model.ProductID.ToString());
+
+                        <script>
+                            document.querySelector("#input-quantity").value = @quantity;
+                        </script>
+
+                        <div class="row">
+                            <div class="col-6">
+                                <input class="btn btn-primary form-control" type="submit" value="Update" asp-route-id="@Model.ProductID" />
+                            </div>
+
+                            <div class="col-6">
+                                <input class="btn btn-danger form-control" type="submit" value="Remove to Bag" asp-action="Remove" asp-route-id="@Model.ProductID" />
+                            </div>
+                        </div>
                     }
                     else
                     {

@@ -1,7 +1,13 @@
 ﻿@model ShopDaki.Models.ViewModel.ShoppingCartViewModel
-@{@using ShopDaki.Utility
-ViewData["Title"] = "Index";
+@using Microsoft.AspNetCore.Http
+@using ShopDaki.Extensions
+@using ShopDaki.Utility
+@{
+    ViewData["Title"] = "Index";
+    float totalPrice = 0;
 }
+
+@inject IHttpContextAccessor HttpContextAccessor
 
 <form method="post">
     <br /> <br />
@@ -24,7 +30,8 @@ ViewData["Title"] = "Index";
                             <th style="text-align: center;">
                                 <label asp-for="@Model.Products.FirstOrDefault().Detail"></label>
                             </th>
-                            <th style="text-align: center;"></th>
+                            <th style="text-align: center;">Group Product</th>
+                            <th style="text-align: center;">Quantity</th>
                             <th style="text-align: center;"></th>
                         </tr>
                         @foreach (var item in Model.Products)
@@ -48,11 +55,18 @@ ViewData["Title"] = "Index";
                                     @Html.DisplayFor(c => item.GroupProduct.Name)
                                 </td>
                                 <td style="text-align: center;">
+                                    @{
+                                        int count = HttpContextAccessor.HttpContext.Session.Get<int>(item.ProductID.ToString());
+                                    }
+                                    @count
+                                </td>
+                                <td style="text-align: center;">
                                     <button type="submit" class="btn btn-danger" asp-action="Remove" asp-route-id="@item.ProductID">
                                         <i class="fas fa-trash-alt"></i>
                                     </button>
                                 </td>
                             </tr>
+                            totalPrice += count * item.Price;
                         }
                     </table>
                 </div>
@@ -108,6 +122,20 @@ ViewData["Title"] = "Index";
                         <div class="col-12 pb-lg-2">
                             <button class="btn btn-success form-control" type="submit" id="btnPlaceOrder">Order</button>
                         </div>
+                    </div>
+                </div>
+
+                <div class="container row">
+                    <div class="col-6">
+                        <h4 class="text-info">
+                            Total(USD)
+                        </h4>
+                    </div>
+
+                    <div class="col-6">
+                        <h4 class="text-muted">
+                            $@totalPrice
+                        </h4>
                     </div>
                 </div>
             </div>

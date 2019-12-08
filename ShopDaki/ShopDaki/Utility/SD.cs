@@ -5,12 +5,6 @@ using System.Threading.Tasks;
 
 namespace ShopDaki.Utility
 {
-    public struct QuantityOrdered
-    {
-        public int ProductID;
-        public int Quantity;
-    }
-
     public class SD
     {
         public const string DefaultProductIamge = "default_product.png";

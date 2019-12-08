@@ -37,7 +37,7 @@ namespace ShopDaki.Controllers
 
         [HttpPost, ActionName("Details")]
         [ValidateAntiForgeryToken]
-        public IActionResult DetailsPost(int id)
+        public IActionResult DetailsPost(int id, int Quantity = 0)
         {
             List<int> lstShoppingCart = HttpContext.Session.Get<List<int>>("ssShoppingCart");
 
@@ -46,7 +46,12 @@ namespace ShopDaki.Controllers
                 lstShoppingCart = new List<int>();
             }
 
-            lstShoppingCart.Add(id);
+            if (!lstShoppingCart.Contains(id))
+            {
+                lstShoppingCart.Add(id);
+            }
+            
+            HttpContext.Session.Set(id.ToString(), Quantity);
 
             HttpContext.Session.Set("ssShoppingCart", lstShoppingCart);
 

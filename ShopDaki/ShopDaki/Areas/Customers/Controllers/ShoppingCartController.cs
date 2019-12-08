@@ -80,7 +80,9 @@ namespace GrainteHouseASP.Areas.Customers.Controllers
 
             foreach (var item in lstShoppingCast)
             {
-                ShoppingCartVM.Order.TotalMoney += _db.Products.Include(m => m.GroupProduct).Where(m => m.ProductID == item).FirstOrDefault().Price;
+                int quantity = HttpContext.Session.Get<int>(item.ToString());
+
+                ShoppingCartVM.Order.TotalMoney += _db.Products.Include(m => m.GroupProduct).Where(m => m.ProductID == item).FirstOrDefault().Price * quantity;
             }
 
             ShoppingCartVM.Order.Status = "Ordered";
@@ -91,10 +93,13 @@ namespace GrainteHouseASP.Areas.Customers.Controllers
 
             foreach (var item in lstShoppingCast)
             {
+                int quantity = HttpContext.Session.Get<int>(item.ToString());
+
                 OrderDetail orderDetail = new OrderDetail()
                 {
                     ProductID = item,
-                    OrderID = ShoppingCartVM.Order.OrderID
+                    OrderID = ShoppingCartVM.Order.OrderID,
+                    Quantity = quantity
                 };
 
                 _db.OrderDetails.Add(orderDetail);
