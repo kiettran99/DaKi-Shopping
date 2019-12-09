@@ -25,7 +25,7 @@ namespace ShopDaki.Controllers
         {
             _db = db;
             _hostingEnvironment = hostingEnvironment;
-            
+
             ProductsVM = new ProductsViewModel
             {
                 GroupProducts = _db.GroupProducts.ToList(),
@@ -59,8 +59,7 @@ namespace ShopDaki.Controllers
             _db.Products.Add(ProductsVM.Product);
             await _db.SaveChangesAsync();
 
-            ////Image being saved
-            ////ContentRootPath is same WebRootPath.
+            //Image being saved
             string webRootPath = _hostingEnvironment.WebRootPath;
             var files = HttpContext.Request.Form.Files;
             var productsFromDb = _db.Products.Find(ProductsVM.Product.ProductID);
@@ -115,7 +114,44 @@ namespace ShopDaki.Controllers
         {
             if (ModelState.IsValid)
             {
-                _db.Update(ProductsVM.Product);
+                //Image being saved
+                string webRootPath = _hostingEnvironment.WebRootPath;
+                var files = HttpContext.Request.Form.Files;
+                var productsFromDb = _db.Products.Where(m => m.ProductID == ProductsVM.Product.ProductID).FirstOrDefault();
+
+                //have file uploading.
+                if (files[0].Length > 0 && files[0] != null)
+                {
+                    //image has been loaded
+                    var uploads = Path.Combine(webRootPath, SD.ImageFolder);
+                    var extension_new = Path.GetExtension(files[0].FileName);
+                    var extension_old = Path.GetExtension(productsFromDb.Images);
+
+                    if (System.IO.File.Exists(Path.Combine(uploads, ProductsVM.Product.ProductID + extension_old)))
+                    {
+                        System.IO.File.Delete(Path.Combine(uploads, ProductsVM.Product.ProductID + extension_old));
+                    }
+
+                    using (var filestream = new FileStream(Path.Combine(uploads, ProductsVM.Product.ProductID + extension_new), FileMode.Create))
+                    {
+                        files[0].CopyTo(filestream);
+                    }
+                    ProductsVM.Product.Images = @"\" + SD.ImageFolder + @"\" + ProductsVM.Product.ProductID + extension_new;
+                }
+
+                if (ProductsVM.Product.Images != null)
+                {
+                    productsFromDb.Images = ProductsVM.Product.Images;
+                }
+
+                productsFromDb.Name = ProductsVM.Product.Name;
+                productsFromDb.Price = ProductsVM.Product.Price;
+                productsFromDb.Status = ProductsVM.Product.Status;
+                productsFromDb.GroupProductID = ProductsVM.Product.GroupProductID;
+                productsFromDb.PriceNew = ProductsVM.Product.PriceNew;
+                productsFromDb.Detail = ProductsVM.Product.Detail;
+                productsFromDb.Date = ProductsVM.Product.Date;
+
                 await _db.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

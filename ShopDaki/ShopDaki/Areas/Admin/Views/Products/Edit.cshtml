@@ -7,7 +7,7 @@
 <br />
 <h2 class="text-info pb-2">Edit Product</h2>
 
-<form method="post" asp-action="Edit">
+<form method="post" enctype="multipart/form-data" asp-action="Edit">
     <div class="p-4 border rounded row">
         <input type="hidden" asp-for="Product.ProductID" />
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -38,7 +38,7 @@
                     <label asp-for="Product.Images"></label>
                 </div>
                 <div class="col-8">
-                    <input class="form-control" asp-for="Product.Images" />
+                    <input type="file" name="files" multiple class="from form-control" />
                 </div>
             </div>
             <br />
