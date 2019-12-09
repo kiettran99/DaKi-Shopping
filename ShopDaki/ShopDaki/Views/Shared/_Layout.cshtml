@@ -10,6 +10,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
+    <style>
+        .icon_chat_facebook {
+            background: url("https://www.viettablet.com/design/themes/duchuymobile/media/images/facebook-messenger.png?1574736690") no-repeat;
+            width: 64px;
+            height: 64px;
+            background-size: cover;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/Footer-Dark.css" />
     <link rel="stylesheet" href="~/css/Navigation-with-Button.css" />
@@ -50,6 +61,7 @@
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" asp-area="Admin" asp-controller="GroupProduct" asp-action="Index">Group Product</a>
                                     <a class="dropdown-item" asp-area="Admin" asp-controller="OrderDetails" asp-action="Index">Order Details</a>
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="OrderStatistics" asp-action="Index">Order Statistics</a>
                                     <a class="dropdown-item" asp-area="Admin" asp-controller="Products" asp-action="Index">Products</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" asp-area="Admin" asp-controller="AdminUsers" asp-action="Index">Admin Users</a>
@@ -92,6 +104,8 @@
             @RenderBody()
         </main>
     </div>
+
+    <a href="https://www.messenger.com/" class="icon_chat_facebook"></a>
 
     <div class="footer-dark">
         <footer>

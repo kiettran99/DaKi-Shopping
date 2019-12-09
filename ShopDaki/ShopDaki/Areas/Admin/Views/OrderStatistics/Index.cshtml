@@ -1,0 +1,75 @@
+﻿@model ShopDaki.Models.ViewModel.OrderStatisticsViewModel
+@{
+    ViewData["Title"] = "Index";
+    var CurrentYear = @Model.SelectedYear;
+}
+
+<head>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+
+<form method="get">
+    <div class="container">
+        <div class="d-flex p-3 justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h2 class="text-info">Order Statistics</h2>
+            <div class="row form-group">
+                <div class="col-8">
+                    <select id="selected-year" class="custom-select" required name="SelectedYear">
+                        <option value="" class="selected">Choose a Year</option>
+                        @for (int i = -3; i <= 3; i++)
+                        {
+                            <option value="@(DateTime.Now.Year + i)">@(DateTime.Now.Year + i)</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-4">
+                    <button class="btn btn-success" type="submit">Go</button>
+                </div>
+            </div>
+        </div>
+        <div id="chartContainer" style="height:400px;"></div>
+    </div>
+</form>
+
+
+<script type="text/javascript">
+    document.querySelector("#selected-year").value = @CurrentYear;
+
+    var data = [];
+
+   @for (int i = 0;i < 12; i++)
+   {
+       int count = @Model.Orders.Where(o => o.Date.Month == (i + 1) && o.Date.Year == CurrentYear).Count();
+       <text>
+            data.push({ x: new Date(@Model.SelectedYear, @i), y: @count});
+       </text>
+   }
+
+   window.onload = function () {
+        var chart = new CanvasJS.Chart("chartContainer", {
+            theme: "light2",
+            animationEnabled: true,
+            title: {
+                text: ""
+            },
+            axisX: {
+                valueFormatString: "MMM",
+                interval: 1,
+                intervalType: "month"
+
+            },
+            axisY: {
+                title: ""
+            },
+
+            data: [
+                {
+                    type: "area",
+                    dataPoints: data
+                }
+            ]
+        });
+
+        chart.render();
+    };
+</script>
