@@ -62,7 +62,7 @@ namespace ShopDaki.Areas.Admin
 
         [HttpPost, ActionName("Remove")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> RemovePost(string id)
+        public async Task<IActionResult> RemovePost(int id)
         {
 
             var contact = await _db.Contacts.FindAsync(id);
