@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ShopDaki.Models.Contact>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<br />
+<br />
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-info"> Messenger Contact</h2>
+        </div>
+        <div class="col-6 text-right">
+       
+        </div>
+    </div>
+</div>
+
+<br />
+<table class="table table-striped border">
+    <tr class="table-info">
+        <th>@Html.DisplayNameFor(model => model.Name)</th>
+      
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(model => item.Name)</td>
+           
+        </tr>
+    }
+
+</table>
+
+
