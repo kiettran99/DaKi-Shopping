@@ -50,7 +50,7 @@ namespace ShopDaki.Controllers
             {
                 lstShoppingCart.Add(id);
             }
-            
+
             HttpContext.Session.Set(id.ToString(), Quantity);
 
             HttpContext.Session.Set("ssShoppingCart", lstShoppingCart);
@@ -78,6 +78,24 @@ namespace ShopDaki.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Contact(Contact contact)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Add(contact);
+                await _db.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(contact);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
