@@ -12,7 +12,7 @@
             <h2 class="text-info"> Messenger Contact</h2>
         </div>
         <div class="col-6 text-right">
-       
+
         </div>
     </div>
 </div>
@@ -20,8 +20,9 @@
 <br />
 <table class="table table-striped border">
     <tr class="table-info">
-        <th>@Html.DisplayNameFor(model => model.Name)</th>
-      
+        <th>Title</th>
+        <th>Customer Name</th>
+        <th>Email</th>
         <th></th>
     </tr>
 
@@ -29,10 +30,13 @@
     {
         <tr>
             <td>@Html.DisplayFor(model => item.Name)</td>
-           
+            <td>@Html.DisplayFor(model => item.Address)</td>
+            <td>@Html.DisplayFor(model => item.Mail)</td>
+            <td>
+                <a class="btn btn-primary" type="button" href="@(Url.Action("Details") + $"/{item.ContactID}")"><i class="fas fa-info"></i></a>
+                <a class="btn btn-danger" type="button" href="@(Url.Action("Remove") + $"/{item.ContactID}")"><i class="fas fa-trash"></i></a>
+            </td>
         </tr>
     }
 
 </table>
-
-
