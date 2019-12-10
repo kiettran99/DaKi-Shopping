@@ -147,7 +147,7 @@ namespace ShopDaki.Controllers
                 productsFromDb.Name = ProductsVM.Product.Name;
                 productsFromDb.Price = ProductsVM.Product.Price;
                 productsFromDb.Status = ProductsVM.Product.Status;
-                productsFromDb.GroupProductID = ProductsVM.Product.GroupProductID;
+              productsFromDb.GroupProductID = ProductsVM.Product.GroupProductID;
                 productsFromDb.PriceNew = ProductsVM.Product.PriceNew;
                 productsFromDb.Detail = ProductsVM.Product.Detail;
                 productsFromDb.Date = ProductsVM.Product.Date;
