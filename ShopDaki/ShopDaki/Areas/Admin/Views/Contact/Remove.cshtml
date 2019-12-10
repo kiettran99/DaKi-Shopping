@@ -1,0 +1,42 @@
+﻿@model ShopDaki.Models.Contact
+@{
+    ViewData["Title"] = "Remove";
+}
+
+<br />
+<h2 class="text-info pb-2">Remove Contact Us</h2>
+<form method="post" asp-action="Remove">
+    <div class="p-4 border rounded">
+        <div class="form-group row">
+            <div class="col-2">
+                <label>Customer Name</label>
+            </div>
+            <div class="col-5">
+                <input readonly type="text" class="form-control" asp-for="Address" />
+            </div>
+        </div>
+        <br />
+        <div class="form-group row">
+            <div class="col-2">
+                <label>Title</label>
+            </div>
+            <div class="col-5">
+                <input readonly class="form-control" asp-for="Name" />
+            </div>
+        </div>
+        <br />
+        <div class="form-group row">
+            <div class="col-2">
+                <label>Content</label>
+            </div>
+            <div class="col-5">
+                <textarea class="form-control" readonly asp-for="Detail"></textarea>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <input type="submit" asp-action="Remove" asp-route-id="@Model.ContactID" class="btn btn-danger" value="Delete" />
+            <a class="btn btn-success" asp-action="Index">Back to list</a>
+        </div>
+    </div>
+</form>

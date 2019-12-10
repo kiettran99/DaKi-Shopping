@@ -1,0 +1,39 @@
+﻿@model ShopDaki.Models.Contact
+@{
+    ViewData["Title"] = "Details";
+}
+
+<br />
+<h2 class="text-info pb-2">Detail Contact Us</h2>
+<div class="p-4 border rounded">
+    <div class="form-group row">
+        <div class="col-2">
+            <label>Customer Name</label>
+        </div>
+        <div class="col-5">
+            <input readonly type="text" class="form-control" asp-for="Address" />
+        </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <div class="col-2">
+            <label>Title</label>
+        </div>
+        <div class="col-5">
+            <input readonly class="form-control" asp-for="Name" />
+        </div>
+    </div>
+    <br />
+    <div class="form-group row">
+        <div class="col-2">
+            <label>Content</label>
+        </div>
+        <div class="col-5">
+            <textarea class="form-control" readonly asp-for="Detail"></textarea>
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        <a class="btn btn-success" asp-action="Index">Back to list</a>
+    </div>
+</div>

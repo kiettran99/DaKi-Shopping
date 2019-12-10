@@ -23,16 +23,34 @@ namespace ShopDaki.Areas.Admin
         {
             return View(_db.Contacts.ToList());
         }
-     
-        //Get Remove Method
-        public async Task<IActionResult> Remove(int? id)
+
+        //Get Details Method
+        public async Task<IActionResult> Details(int? id)
         {
-            if (id == null )
+            if (id == null)
             {
                 return NotFound();
             }
 
-            var  contact = await _db.Contacts.FindAsync(id);
+            var contact = await _db.Contacts.FindAsync(id);
+
+            if (contact == null)
+            {
+                return NotFound();
+            }
+
+            return View(contact);
+        }
+
+        //Get Remove Method
+        public async Task<IActionResult> Remove(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var contact = await _db.Contacts.FindAsync(id);
 
             if (contact == null)
             {
